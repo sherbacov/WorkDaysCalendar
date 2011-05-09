@@ -29,6 +29,9 @@ namespace WorkDaysCalendar
         public DayOfWeek Day;
         public override WorkCalendarDayType GetDayType(DateTime day)
         {
+            // статический класс
+            Procesed = false;
+
             if (day.DayOfWeek == Day)
                 Procesed = true;
             
@@ -47,6 +50,8 @@ namespace WorkDaysCalendar
         public DateTime Day;
         public override WorkCalendarDayType GetDayType(DateTime day)
         {
+            // статический класс
+            Procesed = false;
             if (day.Date == Day.Date)
                 Procesed = true;
             
@@ -99,7 +104,6 @@ namespace WorkDaysCalendar
 
                     if (rule.Procesed)
                     {
-                        rule.Procesed = false;
                         if (exeptionRule == defaultRule)
                             return exeptionRule == WorkCalendarDayType.Holiday ? WorkCalendarDayType.WorkingDay : WorkCalendarDayType.Holiday;
                        
