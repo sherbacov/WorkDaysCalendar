@@ -22,3 +22,11 @@ WorkDaysCalendarTestProject/obj/Debug/WorkDaysCalendarTestProject.dll
 WorkDaysCalendarTestProject/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
 WorkDaysCalendarTestProject/obj/Debug/WorkDaysCalendarTestProject.csproj.FileListAbsolute.txt
 WorkDaysCalendarTestProject/obj/Debug/ResolveAssemblyReference.cache
+WorkDaysCalendarTestProject/bin/Debug/TestResults/*
+TestResults/*
+
+Local.testsettings
+TraceAndTestImpact.testsettings
+WorkDaysCalendar.6.5.TeamCity.user
+WorkDaysCalendar.sln.docstates
+WorkDaysCalendar.vsmdi
