@@ -75,6 +75,7 @@ namespace WorkDaysCalendar
         static WorkCalendar()
         {
             _yearsRules.Add(2011, new WorkCalendar2011());
+            _yearsRules.Add(2012, new WorkCalendar2012());
         }
 
         public static bool IsWorkingDay(DateTime day)
