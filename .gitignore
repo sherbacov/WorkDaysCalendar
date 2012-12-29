@@ -30,3 +30,6 @@ TraceAndTestImpact.testsettings
 WorkDaysCalendar.6.5.TeamCity.user
 WorkDaysCalendar.sln.docstates
 WorkDaysCalendar.vsmdi
+WorkDaysCalendar/obj/Debug/WorkDaysCalendar.csprojResolveAssemblyReference.cache
+WorkDaysCalendarTest/obj/x86/Debug/*
+WorkDaysCalendarTestProject/obj/*

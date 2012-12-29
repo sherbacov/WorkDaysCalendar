@@ -4,7 +4,6 @@ using System.Linq;
 
 namespace WorkDaysCalendar
 {
-    
     public enum WorkCalendarDayType
     {
         WorkingDay,
@@ -27,6 +26,7 @@ namespace WorkDaysCalendar
         }
 
         public DayOfWeek Day;
+
         public override WorkCalendarDayType GetDayType(DateTime day)
         {
             // статический класс
@@ -76,6 +76,7 @@ namespace WorkDaysCalendar
         {
             _yearsRules.Add(2011, new WorkCalendar2011());
             _yearsRules.Add(2012, new WorkCalendar2012());
+            _yearsRules.Add(2013, new WorkCalendar2013());
         }
 
         public static bool IsWorkingDay(DateTime day)
